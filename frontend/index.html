@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Task Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Smart Task Analyzer</h2>
+
+<select id="strategy">
+    <option value="smart">Smart Balance</option>
+    <option value="fastest">Fastest Wins</option>
+    <option value="impact">High Impact</option>
+    <option value="deadline">Deadline Driven</option>
+</select>
+
+<textarea id="jsonInput" placeholder="Paste tasks JSON here"></textarea>
+
+<button onclick="analyze()">Analyze</button>
+
+<div id="output"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
